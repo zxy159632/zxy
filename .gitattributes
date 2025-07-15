@@ -1,0 +1,15 @@
+# 对所有文件使用默认的自动转换
+* text=auto
+
+# 明确指定 Markdown 文件使用 LF 格式
+*.md text eol=lf
+
+# 明确指定 Python 文件使用 LF 格式
+*.py text eol=lf
+
+# 明确指定 shell 脚本使用 LF 格式
+*.sh text eol=lf
+
+# 明确指定 Windows 批处理文件使用 CRLF 格式
+*.bat text eol=crlf
+*.ps1 text eol=crlf
